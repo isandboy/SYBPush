@@ -1,0 +1,18 @@
+PODS:
+  - SYBPush (0.1.0):
+    - SYBPush/normal (= 0.1.0)
+  - SYBPush/normal (0.1.0)
+
+DEPENDENCIES:
+  - SYBPush (from `../`)
+
+EXTERNAL SOURCES:
+  SYBPush:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SYBPush: 83af2d41d2d212b868288515033ccaf47bf6656c
+
+PODFILE CHECKSUM: 591259034c4f6f2e574603bcea297a05ebe1dcaf
+
+COCOAPODS: 1.8.4

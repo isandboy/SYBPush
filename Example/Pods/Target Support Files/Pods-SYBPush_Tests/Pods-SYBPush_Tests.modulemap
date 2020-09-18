@@ -1,0 +1,6 @@
+framework module Pods_SYBPush_Tests {
+  umbrella header "Pods-SYBPush_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

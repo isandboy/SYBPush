@@ -1,0 +1,6 @@
+framework module SYBPush {
+  umbrella header "SYBPush-umbrella.h"
+
+  export *
+  module * { export * }
+}
