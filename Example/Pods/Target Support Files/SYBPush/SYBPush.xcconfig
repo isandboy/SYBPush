@@ -1,7 +1,7 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/SYBPush
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../SYBPush/Classes/normal"
-OTHER_LDFLAGS = $(inherited) -all_load -l"BPush" -l"z" -framework "CoreLocation" -framework "CoreTelephony" -framework "Foundation" -framework "SystemConfiguration"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../SYBPush/Classes/idfa"
+OTHER_LDFLAGS = $(inherited) -all_load -l"BPush" -l"z" -framework "AdSupport" -framework "CoreLocation" -framework "CoreTelephony" -framework "Foundation" -framework "SystemConfiguration"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}

@@ -1,8 +1,7 @@
 use_frameworks!
 
 target 'SYBPush_Example' do
-  pod 'SYBPush', :path => '../'
-
+  pod 'SYBPush/idfa', :path => '../'
   target 'SYBPush_Tests' do
     inherit! :search_paths
 

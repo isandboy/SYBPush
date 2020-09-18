@@ -7,21 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		040D220936C8A411D4B4527EDC86F267 /* SYBPushDummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A88605F58F30B6A11174A26282C3C03 /* SYBPushDummy.m */; };
-		1DDD2BC2765D58711EF3CFA8F1A39655 /* SYBPush-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA8C79C037A876B794FA0FC38AF8CC4 /* SYBPush-dummy.m */; };
-		257065DF18D005F7442BB3EEB78F0271 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B65C9930C7E82C4E66524A733998112 /* Foundation.framework */; };
+		257065DF18D005F7442BB3EEB78F0271 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B41B4C130CD995CC82068DA24846DF4C /* Foundation.framework */; };
+		2877171C4BE0CFCE7D398B0C432ECE26 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5897CC20B7B0B3F49488B176AB9282 /* CoreLocation.framework */; };
+		29430C3E53FC50B5CEE04999ED45C097 /* SYBPushDummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F65B02C1F9FF8882AF46A402EA336356 /* SYBPushDummy.m */; };
+		36D1A66C0C84C9476CE2825231D9EC61 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DC2CAE58776D8A06521DEA87B11677 /* SystemConfiguration.framework */; };
+		3D485FDA633F70021413DBA2F4148987 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846F6EE7E2ADD5D84535B8CE12A7A8EA /* AdSupport.framework */; };
 		4FC4D9FF89EBAFB4E000402F586C930D /* Pods-SYBPush_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D332F574516E09F9A94ECCB5DC79BDF /* Pods-SYBPush_Tests-dummy.m */; };
-		4FE79657DB450A3299BFE5A9790721C9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33324B751CF147FE7FC337C7461095B3 /* CoreLocation.framework */; };
-		7A00435D571CD1FF7FA9BD79243BA2E7 /* SYBPush-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E05AC0525387A2D3FCD1FA86DAF4D499 /* SYBPush-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8534BDA750EBD698A4881854364113E5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F926905EE5F35F445A1547FCC97452 /* SystemConfiguration.framework */; };
-		9A03B392F29AC2F56870AF6344A29C55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B65C9930C7E82C4E66524A733998112 /* Foundation.framework */; };
-		A398245F3B3AF12A3C7E7BFBCCD8B6CB /* SYBPushDummy.h in Headers */ = {isa = PBXBuildFile; fileRef = 15210616002DD1686E31A7552C142441 /* SYBPushDummy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		671FCE94089EA37CF20E05BE7BFAB1E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B41B4C130CD995CC82068DA24846DF4C /* Foundation.framework */; };
+		8F820E34D25E96DCB018C3C4A609E0D4 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 059F7469DC5C28A59648D869F25F481A /* CoreTelephony.framework */; };
+		9A03B392F29AC2F56870AF6344A29C55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B41B4C130CD995CC82068DA24846DF4C /* Foundation.framework */; };
 		A44B8CF01F32FAF146CC4A88043C17BF /* Pods-SYBPush_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4044B1A2459979647085B789F12781DF /* Pods-SYBPush_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB1BFED38055DC6D375F4CE3810FF821 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B65C9930C7E82C4E66524A733998112 /* Foundation.framework */; };
+		BA053700937ACCF583BBE4F18DE9102C /* SYBPushDummy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5334F7A776AC4BE935153306F56283 /* SYBPushDummy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD24F6131D33EFD8BACA300A22F38A5D /* Pods-SYBPush_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EA9B5A64109165FEEFBDAEAFE5A0F9 /* Pods-SYBPush_Example-dummy.m */; };
 		BFE6C2A6DDFB481D3EE985C12DF0C90D /* Pods-SYBPush_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DB092E704098CDC18AFCCCD7005E3B8 /* Pods-SYBPush_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF189022A8CC4FBAE27853B294CA02A6 /* BPush.h in Headers */ = {isa = PBXBuildFile; fileRef = 42FAE8D37315321940BF253F4CF32F15 /* BPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF0C88ED8D98402382F7CE522EC6B67A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDAE4356F751EE28D1030CBB62425811 /* CoreTelephony.framework */; };
+		C305F99D22E1BA1BFE8E7F0DDC5D3F0E /* BPush.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B61218F33DE8770FC6F660DD649AC5 /* BPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E135D8BA987B2F85345B5475388D4BED /* SYBPush-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94B187D6D17FA6ED0DAE36C3B5A1A808 /* SYBPush-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7BBC55CDAE6B09343790D241D8349D9 /* SYBPush-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4213A96644DECA5D95A55C83F207699 /* SYBPush-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,58 +43,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		059F7469DC5C28A59648D869F25F481A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		07D242804B86463ACA3131E864E065A2 /* SYBPush.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYBPush.xcconfig; sourceTree = "<group>"; };
+		0A5334F7A776AC4BE935153306F56283 /* SYBPushDummy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYBPushDummy.h; path = SYBPush/Classes/SYBPushDummy.h; sourceTree = "<group>"; };
 		0B3FB5114A99403BF90F2459FBC06529 /* Pods-SYBPush_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYBPush_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1055D0445C9E558A2FC6253DA6CCF57D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1302A2198985468FBCBF21B6974363C6 /* Pods_SYBPush_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYBPush_Tests.framework; path = "Pods-SYBPush_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		133D562B324A6C21AC5644E0C56982E7 /* Pods-SYBPush_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYBPush_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		15210616002DD1686E31A7552C142441 /* SYBPushDummy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYBPushDummy.h; path = SYBPush/Classes/SYBPushDummy.h; sourceTree = "<group>"; };
-		19D04A864B7603FA141BB1EA1C9F73CE /* SYBPush.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYBPush.xcconfig; sourceTree = "<group>"; };
 		1AFBE20B66733EE78F2D50AEFA2C9C5F /* Pods-SYBPush_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYBPush_Tests-Info.plist"; sourceTree = "<group>"; };
 		25778447FEA2B5A4042D7268D3EE33E8 /* Pods-SYBPush_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYBPush_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		33324B751CF147FE7FC337C7461095B3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
-		3A88605F58F30B6A11174A26282C3C03 /* SYBPushDummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYBPushDummy.m; path = SYBPush/Classes/SYBPushDummy.m; sourceTree = "<group>"; };
+		3008B8E205A2E22D247941758289008A /* SYBPush-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SYBPush-Info.plist"; sourceTree = "<group>"; };
+		38DC2CAE58776D8A06521DEA87B11677 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		3CAD1DF68588230C4214B82F01E30041 /* SYBPush.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYBPush.framework; path = SYBPush.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DA8C79C037A876B794FA0FC38AF8CC4 /* SYBPush-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYBPush-dummy.m"; sourceTree = "<group>"; };
 		4044B1A2459979647085B789F12781DF /* Pods-SYBPush_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYBPush_Tests-umbrella.h"; sourceTree = "<group>"; };
-		42FAE8D37315321940BF253F4CF32F15 /* BPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BPush.h; path = SYBPush/Classes/normal/BPush.h; sourceTree = "<group>"; };
 		4D332F574516E09F9A94ECCB5DC79BDF /* Pods-SYBPush_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYBPush_Tests-dummy.m"; sourceTree = "<group>"; };
-		4D9DB436F407AA9F16CE1592DD60A1A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		53EA9B5A64109165FEEFBDAEAFE5A0F9 /* Pods-SYBPush_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYBPush_Example-dummy.m"; sourceTree = "<group>"; };
 		559C9CDA73B416035BA47E7DDCCE1255 /* Pods-SYBPush_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYBPush_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5871504AEA880C3D0DCB9D1158DDF84A /* SYBPush.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SYBPush.modulemap; sourceTree = "<group>"; };
+		62B08FE8C18F0A5BADEA778F7E4F585E /* SYBPush-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYBPush-prefix.pch"; sourceTree = "<group>"; };
 		6A704E99D243BBE291BB60608BBFF01D /* Pods-SYBPush_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYBPush_Tests.modulemap"; sourceTree = "<group>"; };
+		6F07F92FBFEC6B8514BBF05945B63150 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6F6C4F8F6364703DF7481293E7218AA2 /* Pods-SYBPush_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYBPush_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6FF2716BFD7BD76FC71BF56BEF3D6FC4 /* SYBPush.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SYBPush.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		73F926905EE5F35F445A1547FCC97452 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		7859903D0FE2A5F47BCCC00EC17D0B06 /* SYBPush-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SYBPush-Info.plist"; sourceTree = "<group>"; };
 		7DB092E704098CDC18AFCCCD7005E3B8 /* Pods-SYBPush_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYBPush_Example-umbrella.h"; sourceTree = "<group>"; };
-		8517A8AC34B30E4504F90FDC94529001 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		846F6EE7E2ADD5D84535B8CE12A7A8EA /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
 		870E35F91073117D89B60615E060F54C /* Pods_SYBPush_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYBPush_Example.framework; path = "Pods-SYBPush_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		96A856A37A0494D9F1EAF4EECEDDEEE7 /* SYBPush-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYBPush-prefix.pch"; sourceTree = "<group>"; };
+		89D98DBAD79CB8AD1941C67D2F393826 /* SYBPush.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SYBPush.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8B5897CC20B7B0B3F49488B176AB9282 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		94B187D6D17FA6ED0DAE36C3B5A1A808 /* SYBPush-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYBPush-umbrella.h"; sourceTree = "<group>"; };
 		990A617A8D39EFC3AFC7FC0474AA963F /* Pods-SYBPush_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYBPush_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9B65C9930C7E82C4E66524A733998112 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9C3BE47A22320B5A3B3976DA7EFF836B /* Pods-SYBPush_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYBPush_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4F2D19089CBD7F6FCFFE84AC845CF50 /* libBPush.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBPush.a; path = SYBPush/Classes/normal/libBPush.a; sourceTree = "<group>"; };
-		B232CD8AAB13519EA2CD4CA445E30C5F /* SYBPush.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SYBPush.modulemap; sourceTree = "<group>"; };
+		A4213A96644DECA5D95A55C83F207699 /* SYBPush-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYBPush-dummy.m"; sourceTree = "<group>"; };
+		A7B61218F33DE8770FC6F660DD649AC5 /* BPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BPush.h; sourceTree = "<group>"; };
+		B41B4C130CD995CC82068DA24846DF4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		B4DC7FB9560593AC39C1EA381E718BE1 /* Pods-SYBPush_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYBPush_Example.modulemap"; sourceTree = "<group>"; };
 		BDCEB51A93673202EB665A05703D4138 /* Pods-SYBPush_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYBPush_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E05AC0525387A2D3FCD1FA86DAF4D499 /* SYBPush-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYBPush-umbrella.h"; sourceTree = "<group>"; };
+		E1A3636BC9B99F08607E05E4914BB723 /* libBPush.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBPush.a; path = SYBPush/Classes/idfa/libBPush.a; sourceTree = "<group>"; };
 		EBA6A090078D6286241FE38AC17CF9F0 /* Pods-SYBPush_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYBPush_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EDAE4356F751EE28D1030CBB62425811 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		F65B02C1F9FF8882AF46A402EA336356 /* SYBPushDummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYBPushDummy.m; path = SYBPush/Classes/SYBPushDummy.m; sourceTree = "<group>"; };
 		F8E20EAB064ACA0A063A32458F452191 /* Pods-SYBPush_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYBPush_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0615E429F04841C685EA271FCC53D1A7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4FE79657DB450A3299BFE5A9790721C9 /* CoreLocation.framework in Frameworks */,
-				DF0C88ED8D98402382F7CE522EC6B67A /* CoreTelephony.framework in Frameworks */,
-				AB1BFED38055DC6D375F4CE3810FF821 /* Foundation.framework in Frameworks */,
-				8534BDA750EBD698A4881854364113E5 /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7772DCB055974EB584EDE92217DC6302 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -110,30 +101,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C9C4478C4638DE6680023D7A878B25BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D485FDA633F70021413DBA2F4148987 /* AdSupport.framework in Frameworks */,
+				2877171C4BE0CFCE7D398B0C432ECE26 /* CoreLocation.framework in Frameworks */,
+				8F820E34D25E96DCB018C3C4A609E0D4 /* CoreTelephony.framework in Frameworks */,
+				671FCE94089EA37CF20E05BE7BFAB1E8 /* Foundation.framework in Frameworks */,
+				36D1A66C0C84C9476CE2825231D9EC61 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02D79B4D38BC821058F3713B4B8ABA74 /* SYBPush */ = {
-			isa = PBXGroup;
-			children = (
-				15210616002DD1686E31A7552C142441 /* SYBPushDummy.h */,
-				3A88605F58F30B6A11174A26282C3C03 /* SYBPushDummy.m */,
-				28D0F24E7CD534C7B6E66F227F40174C /* normal */,
-				38575A0D7D1B756AAF30AB3B53F3A03A /* Pod */,
-				B47A512DCC5812BC156BDE8629782234 /* Support Files */,
-			);
-			name = SYBPush;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		17BEB1BDB7625E3F78BFE159D9652482 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A4F2D19089CBD7F6FCFFE84AC845CF50 /* libBPush.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		257280F91FA13C02B9CDBB39A2556226 /* Pods-SYBPush_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,15 +131,6 @@
 			);
 			name = "Pods-SYBPush_Example";
 			path = "Target Support Files/Pods-SYBPush_Example";
-			sourceTree = "<group>";
-		};
-		28D0F24E7CD534C7B6E66F227F40174C /* normal */ = {
-			isa = PBXGroup;
-			children = (
-				42FAE8D37315321940BF253F4CF32F15 /* BPush.h */,
-				17BEB1BDB7625E3F78BFE159D9652482 /* Frameworks */,
-			);
-			name = normal;
 			sourceTree = "<group>";
 		};
 		3337100EFF7B25C1326639CADE68C35B /* Pods-SYBPush_Tests */ = {
@@ -176,20 +149,18 @@
 			path = "Target Support Files/Pods-SYBPush_Tests";
 			sourceTree = "<group>";
 		};
-		38575A0D7D1B756AAF30AB3B53F3A03A /* Pod */ = {
+		42BEF9EE20E2C369FE36863B609C7417 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8517A8AC34B30E4504F90FDC94529001 /* LICENSE */,
-				4D9DB436F407AA9F16CE1592DD60A1A4 /* README.md */,
-				6FF2716BFD7BD76FC71BF56BEF3D6FC4 /* SYBPush.podspec */,
+				E1A3636BC9B99F08607E05E4914BB723 /* libBPush.a */,
 			);
-			name = Pod;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4FF6D7980C88A415F848E8399CFC66D1 /* Development Pods */ = {
+		62D6A5DB60EE537A6F50F1001E904401 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				02D79B4D38BC821058F3713B4B8ABA74 /* SYBPush */,
+				D0FBA616A01C67046664F30CE491663F /* SYBPush */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -203,48 +174,67 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B304B180689A2C46D3AD1E4FB23ED457 /* iOS */ = {
+		967BDE1ADB7BE859AD9F2D011591CAD3 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				33324B751CF147FE7FC337C7461095B3 /* CoreLocation.framework */,
-				EDAE4356F751EE28D1030CBB62425811 /* CoreTelephony.framework */,
-				9B65C9930C7E82C4E66524A733998112 /* Foundation.framework */,
-				73F926905EE5F35F445A1547FCC97452 /* SystemConfiguration.framework */,
+				6F07F92FBFEC6B8514BBF05945B63150 /* LICENSE */,
+				1055D0445C9E558A2FC6253DA6CCF57D /* README.md */,
+				89D98DBAD79CB8AD1941C67D2F393826 /* SYBPush.podspec */,
 			);
-			name = iOS;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		B47A512DCC5812BC156BDE8629782234 /* Support Files */ = {
+		B75FB3FAE3D52546ED9D9236E381BC79 /* idfa */ = {
 			isa = PBXGroup;
 			children = (
-				B232CD8AAB13519EA2CD4CA445E30C5F /* SYBPush.modulemap */,
-				19D04A864B7603FA141BB1EA1C9F73CE /* SYBPush.xcconfig */,
-				3DA8C79C037A876B794FA0FC38AF8CC4 /* SYBPush-dummy.m */,
-				7859903D0FE2A5F47BCCC00EC17D0B06 /* SYBPush-Info.plist */,
-				96A856A37A0494D9F1EAF4EECEDDEEE7 /* SYBPush-prefix.pch */,
-				E05AC0525387A2D3FCD1FA86DAF4D499 /* SYBPush-umbrella.h */,
+				0A5334F7A776AC4BE935153306F56283 /* SYBPushDummy.h */,
+				F65B02C1F9FF8882AF46A402EA336356 /* SYBPushDummy.m */,
+				42BEF9EE20E2C369FE36863B609C7417 /* Frameworks */,
+				EDB90FAF44BAFC9E8559348DDF7AB11E /* idfa */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SYBPush";
+			name = idfa;
 			sourceTree = "<group>";
 		};
-		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+		B94D7768568A9992200DB461E8CF687F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B304B180689A2C46D3AD1E4FB23ED457 /* iOS */,
+				C742E5598AFEBDD2E11430AF1FA4F684 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C742E5598AFEBDD2E11430AF1FA4F684 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				846F6EE7E2ADD5D84535B8CE12A7A8EA /* AdSupport.framework */,
+				8B5897CC20B7B0B3F49488B176AB9282 /* CoreLocation.framework */,
+				059F7469DC5C28A59648D869F25F481A /* CoreTelephony.framework */,
+				B41B4C130CD995CC82068DA24846DF4C /* Foundation.framework */,
+				38DC2CAE58776D8A06521DEA87B11677 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				4FF6D7980C88A415F848E8399CFC66D1 /* Development Pods */,
-				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				62D6A5DB60EE537A6F50F1001E904401 /* Development Pods */,
+				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
 				D1BE798DD89633759891ABAB9680D9E5 /* Products */,
 				6CE83BF4A2ADB3614AB270FDAA5B0517 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D0FBA616A01C67046664F30CE491663F /* SYBPush */ = {
+			isa = PBXGroup;
+			children = (
+				B75FB3FAE3D52546ED9D9236E381BC79 /* idfa */,
+				967BDE1ADB7BE859AD9F2D011591CAD3 /* Pod */,
+				F19487CB6CEBCDD7E09F01FBB9B7E2A2 /* Support Files */,
+			);
+			name = SYBPush;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		D1BE798DD89633759891ABAB9680D9E5 /* Products */ = {
@@ -255,6 +245,29 @@
 				3CAD1DF68588230C4214B82F01E30041 /* SYBPush.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EDB90FAF44BAFC9E8559348DDF7AB11E /* idfa */ = {
+			isa = PBXGroup;
+			children = (
+				A7B61218F33DE8770FC6F660DD649AC5 /* BPush.h */,
+			);
+			name = idfa;
+			path = SYBPush/Classes/idfa;
+			sourceTree = "<group>";
+		};
+		F19487CB6CEBCDD7E09F01FBB9B7E2A2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5871504AEA880C3D0DCB9D1158DDF84A /* SYBPush.modulemap */,
+				07D242804B86463ACA3131E864E065A2 /* SYBPush.xcconfig */,
+				A4213A96644DECA5D95A55C83F207699 /* SYBPush-dummy.m */,
+				3008B8E205A2E22D247941758289008A /* SYBPush-Info.plist */,
+				62B08FE8C18F0A5BADEA778F7E4F585E /* SYBPush-prefix.pch */,
+				94B187D6D17FA6ED0DAE36C3B5A1A808 /* SYBPush-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SYBPush";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,13 +281,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F53371D011337D5C9B7634B9AE2A355D /* Headers */ = {
+		4C0E3DD9D7FAA2158F55134483007A34 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF189022A8CC4FBAE27853B294CA02A6 /* BPush.h in Headers */,
-				7A00435D571CD1FF7FA9BD79243BA2E7 /* SYBPush-umbrella.h in Headers */,
-				A398245F3B3AF12A3C7E7BFBCCD8B6CB /* SYBPushDummy.h in Headers */,
+				C305F99D22E1BA1BFE8E7F0DDC5D3F0E /* BPush.h in Headers */,
+				E135D8BA987B2F85345B5475388D4BED /* SYBPush-umbrella.h in Headers */,
+				BA053700937ACCF583BBE4F18DE9102C /* SYBPushDummy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,12 +323,12 @@
 		};
 		B4A9A38B04CDE243AE48F628421086AB /* SYBPush */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0FE0503DA653D11F67603C7D6AD25680 /* Build configuration list for PBXNativeTarget "SYBPush" */;
+			buildConfigurationList = 153E40B61AD88E0C3EA6641F9899DE1E /* Build configuration list for PBXNativeTarget "SYBPush" */;
 			buildPhases = (
-				F53371D011337D5C9B7634B9AE2A355D /* Headers */,
-				AF83D3C123097439E9075CAF7BC4BE43 /* Sources */,
-				0615E429F04841C685EA271FCC53D1A7 /* Frameworks */,
-				478FB484092101BC7C2584FD24C17E82 /* Resources */,
+				4C0E3DD9D7FAA2158F55134483007A34 /* Headers */,
+				96BDE9F846BFD48D14923A903BA668E4 /* Sources */,
+				C9C4478C4638DE6680023D7A878B25BD /* Frameworks */,
+				D016C1DFEF0C076FD6D8D126077B3F05 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -382,14 +395,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		478FB484092101BC7C2584FD24C17E82 /* Resources */ = {
+		99C1BE365464F6807769778D920A2836 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		99C1BE365464F6807769778D920A2836 /* Resources */ = {
+		D016C1DFEF0C076FD6D8D126077B3F05 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -407,12 +420,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF83D3C123097439E9075CAF7BC4BE43 /* Sources */ = {
+		96BDE9F846BFD48D14923A903BA668E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DDD2BC2765D58711EF3CFA8F1A39655 /* SYBPush-dummy.m in Sources */,
-				040D220936C8A411D4B4527EDC86F267 /* SYBPushDummy.m in Sources */,
+				E7BBC55CDAE6B09343790D241D8349D9 /* SYBPush-dummy.m in Sources */,
+				29430C3E53FC50B5CEE04999ED45C097 /* SYBPushDummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,69 +455,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		02136CAE2D338513ECEFF2BB4847CCF4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19D04A864B7603FA141BB1EA1C9F73CE /* SYBPush.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SYBPush/SYBPush-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SYBPush/SYBPush-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SYBPush/SYBPush.modulemap";
-				PRODUCT_MODULE_NAME = SYBPush;
-				PRODUCT_NAME = SYBPush;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		444BE5F4B6DA7AC5794395DAAA64A48A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19D04A864B7603FA141BB1EA1C9F73CE /* SYBPush.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SYBPush/SYBPush-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SYBPush/SYBPush-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SYBPush/SYBPush.modulemap";
-				PRODUCT_MODULE_NAME = SYBPush;
-				PRODUCT_NAME = SYBPush;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		49959CBAB0904E8A5443A54E9936012F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BDCEB51A93673202EB665A05703D4138 /* Pods-SYBPush_Example.debug.xcconfig */;
@@ -570,6 +520,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		8B902A28E02E5B4921341D2745500E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07D242804B86463ACA3131E864E065A2 /* SYBPush.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYBPush/SYBPush-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYBPush/SYBPush-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYBPush/SYBPush.modulemap";
+				PRODUCT_MODULE_NAME = SYBPush;
+				PRODUCT_NAME = SYBPush;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		A4B6153CB039E59E1347AC2365F15BBA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -729,6 +711,37 @@
 			};
 			name = Debug;
 		};
+		B9FA95BA3E2F2285CF2B77A6AC522D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07D242804B86463ACA3131E864E065A2 /* SYBPush.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYBPush/SYBPush-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYBPush/SYBPush-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYBPush/SYBPush.modulemap";
+				PRODUCT_MODULE_NAME = SYBPush;
+				PRODUCT_NAME = SYBPush;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		C6C36155F014EC82B60803C4702F3151 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EBA6A090078D6286241FE38AC17CF9F0 /* Pods-SYBPush_Tests.release.xcconfig */;
@@ -766,11 +779,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0FE0503DA653D11F67603C7D6AD25680 /* Build configuration list for PBXNativeTarget "SYBPush" */ = {
+		153E40B61AD88E0C3EA6641F9899DE1E /* Build configuration list for PBXNativeTarget "SYBPush" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				444BE5F4B6DA7AC5794395DAAA64A48A /* Debug */,
-				02136CAE2D338513ECEFF2BB4847CCF4 /* Release */,
+				B9FA95BA3E2F2285CF2B77A6AC522D1B /* Debug */,
+				8B902A28E02E5B4921341D2745500E5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

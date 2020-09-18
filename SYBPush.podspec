@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SYBPush'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SYBPush.'
+  s.version          = '1.6.2'
+  s.summary          = '百度Push服务SDK'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  百度Push服务SDK
+  百度Push服务SDK 版本：2020-06-02 iOS V1.6.2
                        DESC
 
   s.homepage         = 'https://github.com/isandboy/SYBPush'
@@ -29,19 +29,17 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   
   s.default_subspec = 'normal'
-  s.source_files = 'SYBPush/Classes/*.{h,m}'
   
-  s.subspec 'normal'  do |ss|
-      ss.source_files = 'SYBPush/Classes/normal/*.{h}'
+  s.subspec 'normal' do |ss|
+      ss.source_files = ['SYBPush/Classes/*.{h,m}', 'SYBPush/Classes/normal/*.{h}']
       ss.vendored_libraries = 'SYBPush/Classes/normal/*.a'
       ss.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load' }
       ss.frameworks = 'Foundation', 'CoreTelephony', 'SystemConfiguration', 'CoreLocation'
       ss.libraries = 'z'
-
   end
   
-  s.subspec 'idfa'  do |ss|
-      ss.source_files = 'SYBPush/Classes/idfa/*.{h}'
+  s.subspec 'idfa' do |ss|
+      ss.source_files = ['SYBPush/Classes/*.{h,m}','SYBPush/Classes/idfa/*.{h}']
       ss.vendored_libraries = 'SYBPush/Classes/idfa/*.a'
       ss.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load' }
       ss.frameworks = 'Foundation', 'CoreTelephony', 'SystemConfiguration', 'CoreLocation', 'AdSupport'

@@ -1,7 +1,7 @@
 {
   "name": "SYBPush",
   "version": "0.1.0",
-  "summary": "A short description of SYBPush.",
+  "summary": "百度Push服务SDK",
   "description": "百度Push服务SDK",
   "homepage": "https://github.com/isandboy/SYBPush",
   "license": {
@@ -19,11 +19,13 @@
     "ios": "9.0"
   },
   "default_subspecs": "normal",
-  "source_files": "SYBPush/Classes/*.{h,m}",
   "subspecs": [
     {
       "name": "normal",
-      "source_files": "SYBPush/Classes/normal/*.{h}",
+      "source_files": [
+        "SYBPush/Classes/*.{h,m}",
+        "SYBPush/Classes/normal/*.{h}"
+      ],
       "vendored_libraries": "SYBPush/Classes/normal/*.a",
       "pod_target_xcconfig": {
         "OTHER_LDFLAGS": "-all_load"
@@ -38,7 +40,10 @@
     },
     {
       "name": "idfa",
-      "source_files": "SYBPush/Classes/idfa/*.{h}",
+      "source_files": [
+        "SYBPush/Classes/*.{h,m}",
+        "SYBPush/Classes/idfa/*.{h}"
+      ],
       "vendored_libraries": "SYBPush/Classes/idfa/*.a",
       "pod_target_xcconfig": {
         "OTHER_LDFLAGS": "-all_load"
