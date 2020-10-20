@@ -1,16 +1,16 @@
 PODS:
-  - SYBPush/idfa (0.1.0)
+  - SYBPush/normal (1.6.2)
 
 DEPENDENCIES:
-  - SYBPush/idfa (from `../`)
+  - SYBPush/normal (from `../`)
 
 EXTERNAL SOURCES:
   SYBPush:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SYBPush: a34d18c37a6b49f08e5fc0412d20145b065d2328
+  SYBPush: a27c32fe63498a88603241f6eed97213033d7b9b
 
-PODFILE CHECKSUM: e1f66e1ff4f2ef8e4aee8242ccdf33e8fbd406e1
+PODFILE CHECKSUM: b50de71da5d0cba9f8d9a6a1646526280827b1e3
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.3

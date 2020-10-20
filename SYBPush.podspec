@@ -33,17 +33,17 @@ Pod::Spec.new do |s|
   s.subspec 'normal' do |ss|
       ss.source_files = ['SYBPush/Classes/*.{h,m}', 'SYBPush/Classes/normal/*.{h}']
       ss.vendored_libraries = 'SYBPush/Classes/normal/*.a'
-      ss.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load' }
       ss.frameworks = 'Foundation', 'CoreTelephony', 'SystemConfiguration', 'CoreLocation'
       ss.libraries = 'z'
+      ss.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load','VALID_ARCHS' => 'x86_64 armv7 arm64' }
   end
   
   s.subspec 'idfa' do |ss|
       ss.source_files = ['SYBPush/Classes/*.{h,m}','SYBPush/Classes/idfa/*.{h}']
       ss.vendored_libraries = 'SYBPush/Classes/idfa/*.a'
-      ss.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load' }
       ss.frameworks = 'Foundation', 'CoreTelephony', 'SystemConfiguration', 'CoreLocation', 'AdSupport'
       ss.libraries = 'z'
+      ss.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load','VALID_ARCHS' => 'x86_64 armv7 arm64' }
   end
   
   

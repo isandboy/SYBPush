@@ -1,8 +1,8 @@
 {
   "name": "SYBPush",
-  "version": "0.1.0",
+  "version": "1.6.2",
   "summary": "百度Push服务SDK",
-  "description": "百度Push服务SDK",
+  "description": "百度Push服务SDK 版本：2020-06-02 iOS V1.6.2",
   "homepage": "https://github.com/isandboy/SYBPush",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/isandboy/SYBPush.git",
-    "tag": "0.1.0"
+    "tag": "1.6.2"
   },
   "platforms": {
     "ios": "9.0"
@@ -27,16 +27,17 @@
         "SYBPush/Classes/normal/*.{h}"
       ],
       "vendored_libraries": "SYBPush/Classes/normal/*.a",
-      "pod_target_xcconfig": {
-        "OTHER_LDFLAGS": "-all_load"
-      },
       "frameworks": [
         "Foundation",
         "CoreTelephony",
         "SystemConfiguration",
         "CoreLocation"
       ],
-      "libraries": "z"
+      "libraries": "z",
+      "pod_target_xcconfig": {
+        "OTHER_LDFLAGS": "-all_load",
+        "VALID_ARCHS": "x86_64 armv7 arm64"
+      }
     },
     {
       "name": "idfa",
@@ -45,9 +46,6 @@
         "SYBPush/Classes/idfa/*.{h}"
       ],
       "vendored_libraries": "SYBPush/Classes/idfa/*.a",
-      "pod_target_xcconfig": {
-        "OTHER_LDFLAGS": "-all_load"
-      },
       "frameworks": [
         "Foundation",
         "CoreTelephony",
@@ -55,7 +53,11 @@
         "CoreLocation",
         "AdSupport"
       ],
-      "libraries": "z"
+      "libraries": "z",
+      "pod_target_xcconfig": {
+        "OTHER_LDFLAGS": "-all_load",
+        "VALID_ARCHS": "x86_64 armv7 arm64"
+      }
     }
   ]
 }

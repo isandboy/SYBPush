@@ -1,7 +1,10 @@
 use_frameworks!
 
 target 'SYBPush_Example' do
-  pod 'SYBPush/idfa', :path => '../'
+  pod 'SYBPush/normal', :path => '../'
+#pod 'SYBPush/idfa',  :git => 'https://github.com/isandboy/SYBPush.git'
+#pod 'SYBPush/normal',  :git => 'https://github.com/isandboy/SYBPush.git'
+
   target 'SYBPush_Tests' do
     inherit! :search_paths
 
