@@ -1,5 +1,5 @@
 import XCTest
-import SYBPush
+import SYBPush_normal
 
 class Tests: XCTestCase {
     

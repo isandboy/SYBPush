@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## SYBPush
+## SYBPush-normal
 
 Copyright (c) 2020 isandboy <luyiyang@jiangroom.com>
 

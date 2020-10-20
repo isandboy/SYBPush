@@ -1,16 +1,16 @@
 PODS:
-  - SYBPush/normal (1.6.2)
+  - SYBPush-normal (1.6.2)
 
 DEPENDENCIES:
-  - SYBPush/normal (from `../`)
+  - SYBPush-normal (from `../`)
 
 EXTERNAL SOURCES:
-  SYBPush:
+  SYBPush-normal:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SYBPush: a27c32fe63498a88603241f6eed97213033d7b9b
+  SYBPush-normal: d8d278fe9597b6e82bbf9f75b0e08a330a488050
 
-PODFILE CHECKSUM: b50de71da5d0cba9f8d9a6a1646526280827b1e3
+PODFILE CHECKSUM: 60d83e3cfca519ef345e9e9b5fae0497f8c97aa3
 
 COCOAPODS: 1.9.3

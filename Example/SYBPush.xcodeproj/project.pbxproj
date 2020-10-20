@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		0F3638F5A1F9A7D9AEDF8B37 /* Pods_SYBPush_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYBPush_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		235296ADEB0B1B568F546B6B /* SYBPush.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SYBPush.podspec; path = ../SYBPush.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		235296ADEB0B1B568F546B6B /* SYBPush-normal.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "SYBPush-normal.podspec"; path = "../SYBPush-normal.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		27E777BDB83F3538D17CFF96 /* Pods_SYBPush_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYBPush_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		429961E6D6DCBF82A8AC581D /* Pods-SYBPush_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYBPush_Tests.release.xcconfig"; path = "Target Support Files/Pods-SYBPush_Tests/Pods-SYBPush_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		44B3FDE0800D5D055A9CB094 /* Pods-SYBPush_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYBPush_Example.debug.xcconfig"; path = "Target Support Files/Pods-SYBPush_Example/Pods-SYBPush_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -152,7 +152,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				235296ADEB0B1B568F546B6B /* SYBPush.podspec */,
+				235296ADEB0B1B568F546B6B /* SYBPush-normal.podspec */,
 				5043C1C85269D7C41C4C517F /* README.md */,
 				CDBCA6A8BD27ECE3577516D8 /* LICENSE */,
 			);
@@ -269,11 +269,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SYBPush_Example/Pods-SYBPush_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SYBPush/SYBPush.framework",
+				"${BUILT_PRODUCTS_DIR}/SYBPush-normal/SYBPush_normal.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SYBPush.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SYBPush_normal.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

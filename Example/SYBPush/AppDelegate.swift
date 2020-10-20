@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import SYBPush
+import SYBPush_normal
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

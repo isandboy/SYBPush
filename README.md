@@ -17,9 +17,7 @@ SYBPush is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'SYBPush'            #不带idfa版
-pod 'SYBPush/normal'     #不带idfa版
-pod 'SYBPush/idfa'       #idfa版
+pod 'SYBPush-normal'            #不带idfa
 ```
 
 百度Push服务SDK用户手册（iOS版）

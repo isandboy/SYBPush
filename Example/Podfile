@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'SYBPush_Example' do
-  pod 'SYBPush/normal', :path => '../'
+  pod 'SYBPush-normal', :path => '../'
 #pod 'SYBPush/idfa',  :git => 'https://github.com/isandboy/SYBPush.git'
 #pod 'SYBPush/normal',  :git => 'https://github.com/isandboy/SYBPush.git'
 
