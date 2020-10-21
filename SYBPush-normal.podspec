@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SYBPush-normal'
-  s.version          = '1.6.2'
+  s.version          = '1.6.2.1'
   s.summary          = '百度Push服务SDK，不包含idfa'
 
 # This description is used to generate tags and improve search results.
@@ -34,8 +34,8 @@ Pod::Spec.new do |s|
   s.libraries = 'z'
   
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load',
-      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
     }
-  s.user_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+#  s.user_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load', 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 
 end
